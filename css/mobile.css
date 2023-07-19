@@ -1,0 +1,28 @@
+@media screen and (max-width:576px) {
+  nav ,
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu-ber {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .follow-us-btn {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:990px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .menu {
+    margin-bottom: 50px;
+  }
+
+  
+
+}
