@@ -6,7 +6,7 @@
   }
 
   nav {
-    padding: 50px 0;
+   margin: 0 auto;
   }
 
   .menu-ber {
@@ -21,23 +21,62 @@
   /* banner section styles */
 
   .banner {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-top: 150px;
+    margin-bottom: 50px;
   }
 
   .banner-container {
-    max-width: 100%;
-    padding: 100px 0;
-    text-align: center;
+    margin: 0 10px;
   }
 
-  .banner-img {
+  .banner-container p {
+    justify-content: center; 
+  }
+
+  .comunity {
+    margin: auto;
+    
+  }
+
+  .banner-container button {
+   margin-left: 25px;
+  }
+
+  .banner-img img {
+   height: 350px;
    max-width: 100%;
   }
+
+
+
+  /* games section styles */
+
+  /* footer section style */
+  .footer {
+    height: 550px;
+  }
+
+  .list ul,
+  .list-2 ul {
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding-left:10px ;
+  }
+
+  .footer-icon img {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-right: 10px;
+  }
+  
 }
 
 @media screen and (min-width:576px) and (max-width:990px) {
   nav {
     flex-direction: column;
+    margin: auto;
   }
 
   .menu {
@@ -45,13 +84,33 @@
   }
 
   /* banner section styles */
-
-
-  .banner-container {
-    margin-left: 50px;
-  }
   
-  .banner-img {
-    margin-right: 50px;
+  .banner {
+    margin: 0 10px;
+  }
+
+  .banner-img img {
+    height: 350px;
+    max-width: 100%;
+   }
+
+   /* footer section style */
+  
+   .footer {
+    height: 400px;
+  }
+
+  .list ul{
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 10px;
+    padding-left:10px ;
+  }
+
+  .list-2 ul {
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding-left:10px ;
   }
 }
