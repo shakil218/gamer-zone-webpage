@@ -123,9 +123,9 @@ nav {
   margin-left: 10px;
 }
 
-/* games section styles */
+games section styles */
 
-/* .games-container {
+.games-container {
   display: flex;
   height: 400px;
   margin: 50px auto;
@@ -137,10 +137,11 @@ nav {
   justify-content: center;
   align-items: center; 
   text-align: center;
+  margin: 50px auto;
   gap: 35px;
 }
 
-.row button {
+ .btn-primary {
   display: flex;
   flex-wrap: wrap;
   width: 210px;
@@ -151,7 +152,7 @@ nav {
   gap: 5px;
 }
 
-.games button:hover {
+.btn-primary:hover {
   color: #FF42A5;
   border: 1px solid #FF42A5;
   border-radius: 50px;
@@ -161,7 +162,7 @@ nav {
   width: 60px;
   height: 60px;
   border-radius: 50px;
-} */
+} 
 
 /* this is footer section */
 
