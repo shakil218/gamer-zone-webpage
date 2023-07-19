@@ -1,7 +1,12 @@
 @media screen and (max-width:576px) {
+  /* header section styles */
   nav ,
   .menu {
     flex-direction: column;
+  }
+
+  nav {
+    padding: 50px 0;
   }
 
   .menu-ber {
@@ -11,6 +16,22 @@
 
   .follow-us-btn {
     margin-bottom: 50px;
+  }
+
+  /* banner section styles */
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-container {
+    max-width: 100%;
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .banner-img {
+   max-width: 100%;
   }
 }
 
@@ -23,6 +44,14 @@
     margin-bottom: 50px;
   }
 
-  
+  /* banner section styles */
 
+
+  .banner-container {
+    margin-left: 50px;
+  }
+  
+  .banner-img {
+    margin-right: 50px;
+  }
 }
