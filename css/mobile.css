@@ -26,23 +26,71 @@
     margin-bottom: 50px;
   }
 
+  .banner-container h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .banner-title {
+    font-size: 5rem;
+  }
+
+  .banner-container p {
+    justify-content: center;
+    font-size: 1rem;
+  }
+
   .banner-container {
     margin: 0 10px;
   }
 
-  .banner-container p {
-    justify-content: center; 
-  }
-
-  .banner-container button {
-   margin-left: 25px;
-  }
-
   .banner-img img {
    height: 350px;
-   max-width: 100%;
+   max-width: 350px;
   }
 
+  /* instant game section */
+
+  .instant-game {
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    
+  }
+
+  .instant-game-container {
+    height: 50%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .instant-game-title {
+    font-size: 2rem;
+    line-height:30px;
+  }
+
+  .instant-game-description {
+    line-height: 20px;
+  }
+
+  .instant-img-container {
+    height: 50%;
+    margin: 50px auto;
+    margin-left: 50px;
+  }
+
+  .image-1 {
+    height: 200px;
+    max-width: 200px;
+    margin-left:50px;
+  }
+
+  .image-2 {
+    height: 150px;
+    max-width: 150px;
+    bottom: 100px;
+  }
   /* games section styles */
 
   .row {
@@ -100,10 +148,69 @@
     margin: 0 10px;
   }
 
+  .banner-container h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .banner-title {
+    font-size: 5rem;
+  }
+
+  .banner-container p {
+    justify-content: center;
+    font-size: 1rem;
+  }
+
   .banner-img img {
     height: 350px;
-    max-width: 100%;
+    max-width: 400px;
    }
+
+   /* instant game section */
+
+   .instant-game {
+    height: 400px;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .instant-game-container {
+    height: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .instant-game-title {
+    font-size: 2rem;
+    line-height:40px;
+    text-align: right;
+    padding-top: 20px;
+  }
+
+  .instant-game-description {
+    line-height: 25px;
+  }
+
+  .instant-img-container {
+    height: 50%;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 0;
+  }
+
+  .image-1 {
+    height: 300px;
+    max-width: 300px;
+    margin-left:50px;
+  }
+
+  .image-2 {
+    height: 200px;
+    max-width: 200px;
+    bottom: 100px;
+  }
 
    /* footer section style */
   
