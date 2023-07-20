@@ -167,6 +167,11 @@ nav {
   line-height: 30px;
 }
 
+.game-img {
+  height: 300px;
+  width: 300px;
+}
+
 /* instant game section styles */
 
 .instant-game {
