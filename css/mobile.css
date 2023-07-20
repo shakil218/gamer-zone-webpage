@@ -49,6 +49,14 @@
    max-width: 350px;
   }
 
+  /* online game section */
+
+  .online-game-img-container {
+    grid-template-columns:1fr;
+    gap: 30px;
+    margin: 20px 0;
+   }
+
   /* instant game section */
 
   .instant-game {
@@ -167,6 +175,14 @@
     max-width: 400px;
    }
 
+   /* online game section */
+
+   .online-game-img-container {
+    grid-template-columns:repeat(2,1fr);
+    gap: 30px;
+    margin: 20px 0;
+   }
+
    /* instant game section */
 
    .instant-game {
@@ -190,7 +206,9 @@
   }
 
   .instant-game-description {
+    font-size: 16px;
     line-height: 25px;
+    text-align: right;
   }
 
   .instant-img-container {
