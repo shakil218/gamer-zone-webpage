@@ -160,17 +160,6 @@ nav {
   margin: 0 100px;
 }
 
-.game-img {
-  width: 300px;
-  height: 350px;
-  border-radius: 16px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
-
-.game-img:hover {
-  
-}
-
 .online-game-img {
   color: #534C64;
   font-size: 20px;

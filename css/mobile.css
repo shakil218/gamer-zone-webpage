@@ -176,12 +176,16 @@
    }
 
    /* online game section */
+   
+   .online-game-title {
+   text-align: center;
+  }
 
    .online-game-img-container {
     grid-template-columns:repeat(2,1fr);
     gap: 30px;
     margin: 20px 0;
-   }
+  }
 
    /* instant game section */
 
